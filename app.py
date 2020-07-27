@@ -3,7 +3,6 @@
 import streamlit as st
 import joblib
 import pandas as pd
-import webbrowser
 
 st.markdown("<h1 style='text-align: center; color: Green;'><u>Breast Cancer Prediction</u></h1>", unsafe_allow_html=True)
 
@@ -21,28 +20,6 @@ This project is made by **Debmlaya Sur**.
 st.write("""
 The model of this project is giving an accuracy of **96.49%**. For more details, please click the button below!
 	""")
-
-st.text("""""")
-linkedin = st.button("👉🏼 Click Here To See My LinkedIn Profile")
-if linkedin:
-	linkedin_link = "https://www.linkedin.com/in/debmalya-sur-9a36a218b/"
-	try:
-		webbrowser.open(linkedin_link)
-	except:
-		st.write("""
-    		⭕ Something Went Wrong!!! Please Try Again Later!!!
-    		""")
-
-st.text("""""")
-github = st.button("👉🏼 Click Here To See How It Works")
-if github:
-	github_link = "https://github.com/surdebmalya/Breast-Cancer-Analysis"
-	try:
-		webbrowser.open(github_link)
-	except:
-		st.write("""
-    		⭕ Something Went Wrong!!! Please Try Again Later!!!
-    		""")
 
 st.text("""""")
 st.write("""
