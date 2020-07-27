@@ -1,3 +1,4 @@
 streamlit==0.62.1
 joblib==0.16.0
 pandas
+pycopy-webbrowser==0.0.0
