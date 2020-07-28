@@ -1,2 +1,2 @@
-streamlit
 pandas>=0.19
+streamlit
