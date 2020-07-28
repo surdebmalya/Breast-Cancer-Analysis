@@ -1,2 +1,2 @@
-streamlit==0.62.1
-pandas
+streamlit
+pandas>=0.19
