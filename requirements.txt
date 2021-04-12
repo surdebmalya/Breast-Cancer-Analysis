@@ -1,7 +1,3 @@
 pandas
 scikit-learn
 streamlit
-Pillow
-tensorflow-cpu
-numpy
-pytest-shutil
