@@ -1,3 +1,7 @@
 pandas==1.0.4
 scikit-learn==0.22.1
-streamlit==0.62.1
+streamlit
+Pillow==8.1.1
+tensorflow-cpu
+numpy
+pytest-shutil
